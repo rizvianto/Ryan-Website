@@ -85,7 +85,7 @@ export default function Hero() {
 
       {/* Main content with parallax */}
       <motion.div
-        className="px-8 md:px-16 lg:px-24 mt-16 z-10"
+        className="px-4 sm:px-8 md:px-16 lg:px-24 mt-16 z-10"
         style={{ y, opacity }}
       >
         <div className="overflow-hidden">
@@ -93,7 +93,7 @@ export default function Hero() {
             className="block leading-none tracking-tight text-white select-none"
             style={{
               fontFamily: "var(--font-cormorant)",
-              fontSize: "clamp(72px, 17vw, 210px)",
+              fontSize: "clamp(52px, 14vw, 210px)",
               fontWeight: 300,
             }}
           >
@@ -123,7 +123,7 @@ export default function Hero() {
             className="block leading-none tracking-tight text-white select-none"
             style={{
               fontFamily: "var(--font-cormorant)",
-              fontSize: "clamp(72px, 17vw, 210px)",
+              fontSize: "clamp(52px, 14vw, 210px)",
               fontWeight: 300,
             }}
           >
